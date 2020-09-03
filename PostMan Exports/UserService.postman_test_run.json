@@ -1,0 +1,216 @@
+{
+	"id": "39bbf381-9636-46e2-a4a2-89ca8e76ed12",
+	"name": "UserService",
+	"timestamp": "2020-09-03T06:30:13.924Z",
+	"collection_id": "6d35d5d1-7e25-48ff-8eba-1e2ed15b634b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e7d12b17-85c6-4918-91e8-77ceebd2713e",
+			"name": "GET All",
+			"url": "http://localhost:57583/api/user",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				27
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a592d514-a4a5-44bf-a4c9-d5469e2814d3",
+			"name": "POST User Mickey",
+			"url": "http://localhost:57583/api/user",
+			"time": 195,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				195
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "20aaa075-6e96-4662-a181-9d918acb7120",
+			"name": "POST User Minnie",
+			"url": "http://localhost:57583/api/user",
+			"time": 101,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				101
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0928c94a-1859-4897-ba79-1bb10f9a376f",
+			"name": "POST User Donald",
+			"url": "http://localhost:57583/api/user",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0180dcb5-a466-43c2-8b00-bda806670180",
+			"name": "GET All Post Added Users",
+			"url": "http://localhost:57583/api/user",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cc286dd1-8bf6-49ff-95cb-bfc6d7b5f4a9",
+			"name": "PUT Update Donald",
+			"url": "http://localhost:57583/api/user/103",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				25
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92e2f67c-6f81-414a-8f36-61044f94ad49",
+			"name": "GET All Post Update Donald",
+			"url": "http://localhost:57583/api/user",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a94f83d0-0a1c-47f3-940d-6e1874eb7b3f",
+			"name": "DELETE Donald",
+			"url": "http://localhost:57583/api/user/103",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				23
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9484f571-74b8-4cf1-8d8b-d1c980972fb8",
+			"name": "GET All Post Deleting Donald For Bad Pw lol",
+			"url": "http://localhost:57583/api/user",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 394,
+	"collection": {
+		"requests": [
+			{
+				"id": "e7d12b17-85c6-4918-91e8-77ceebd2713e",
+				"method": "GET"
+			},
+			{
+				"id": "a592d514-a4a5-44bf-a4c9-d5469e2814d3",
+				"method": "POST"
+			},
+			{
+				"id": "20aaa075-6e96-4662-a181-9d918acb7120",
+				"method": "POST"
+			},
+			{
+				"id": "0928c94a-1859-4897-ba79-1bb10f9a376f",
+				"method": "POST"
+			},
+			{
+				"id": "0180dcb5-a466-43c2-8b00-bda806670180",
+				"method": "GET"
+			},
+			{
+				"id": "cc286dd1-8bf6-49ff-95cb-bfc6d7b5f4a9",
+				"method": "PUT"
+			},
+			{
+				"id": "92e2f67c-6f81-414a-8f36-61044f94ad49",
+				"method": "GET"
+			},
+			{
+				"id": "a94f83d0-0a1c-47f3-940d-6e1874eb7b3f",
+				"method": "DELETE"
+			},
+			{
+				"id": "9484f571-74b8-4cf1-8d8b-d1c980972fb8",
+				"method": "GET"
+			}
+		]
+	}
+}
